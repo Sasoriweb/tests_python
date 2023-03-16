@@ -17,7 +17,7 @@ def test_strings_basic() -> None:
 
     # ahora intentemos obtener los primeros tres caracteres del string
 
-    assert substring == "Gat"
+    assert substring == "GAT"
 
 def test_strings_concat() -> None:
     # partimos con un string y lo vamos a concatenar
@@ -25,3 +25,16 @@ def test_strings_concat() -> None:
     assert perrito == "perrito"
 
     assert frase == "Un perrito tiene hambre"
+
+def test_string_integers() -> None:
+    # definimos un integer
+    assert integer == 20
+
+    # lo convertimos a string
+
+    assert str_integer == "20"
+
+    # lo podemos operar con otros strings@
+
+    assert frase == "Yo tenía 20 perritos"
+

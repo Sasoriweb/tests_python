@@ -20,7 +20,7 @@ def test_integers_basic() -> None:
     assert division == 2
 
 def test_integers_string() -> None:
-    # partimos con un integer y transformemoslo a string
+    # partimos con un string
 
     assert str_numero == "3"
 
