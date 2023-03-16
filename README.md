@@ -12,3 +12,13 @@ o
 o
 
 `pip install -r requirements.txt`
+
+
+Para ejecutar los tests hay 2 maneras
+
+`python -m pytest`
+
+o
+
+`pytest`
+
