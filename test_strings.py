@@ -4,11 +4,12 @@
 
 
 def test_strings_basic() -> None:
-    # vamos a hacer primero una asignación de variable
+
+    string = "perrito" # vamos a hacer primero una asignación de variable
     assert string == "perrito"
 
     # luego vamos a cambiar el valor de esta variable
-
+    string = "gatito"
     assert string == "gatito"
 
     # luego vamos a transformar ese string a otro casing
