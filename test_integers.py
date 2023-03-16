@@ -14,3 +14,16 @@ def test_integers_basic() -> None:
     # luego vamos a operar con otro integer con una suma
 
     assert suma == 10
+
+    # ahora intentemos hacer una división
+
+    assert division == 2
+
+def test_integers_string() -> None:
+    # partimos con un integer y transformemoslo a string
+
+    assert str_numero == "3"
+
+    # luego veamos si podemos transformar ese str a int
+
+    assert numero == 3
