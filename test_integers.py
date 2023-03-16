@@ -21,8 +21,10 @@ def test_integers_basic() -> None:
     assert division == 2
 
 def test_integers_string() -> None:
-    # partimos con un integer y transformemoslo a string
+
+    # partimos con un string
     str_numero = "3"
+
     assert str_numero == "3"
 
     # luego veamos si podemos transformar ese str a int
